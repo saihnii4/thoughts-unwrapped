@@ -1,0 +1,32 @@
+{
+  "name": "thoughts-wrapped",
+  "version": "1.0.0",
+  "description": "yes",
+  "author": "nablasleep",
+  "license": "MIT",
+  "private": false,
+  "source": ["src/index.html", "src/spotify.html"],
+  "devDependencies": {
+    "@types/animejs": "^3.1.6",
+    "autoprefixer": "^10.4.13",
+    "parcel": "^2.8.2",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "run": "",
+    "build": ""
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "animejs": "^3.2.1",
+    "preact": "^10.11.3"
+  }
+}

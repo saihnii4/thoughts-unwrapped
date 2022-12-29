@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body data-barba="wrapper" class="bg-nord0">
+    <div class="h-full w-full">
+      <main
+        class="w-full h-full"
+        data-barba="container"
+        data-barba-namespace="intro"
+      >
+        <div
+          id="play-area"
+          class="py-16 px-32 h-full w-full flex justify-center items-center"
+        >
+          <div class="flex gap-4 flex-col items-center justify-between h-72">
+            <div
+              id="sample"
+              class="flex flex-row text-text text-8xl font-extrabold text-center"
+            ></div>
+            <div>
+              <!-- the button box still grows despite me not wanting it to (i suck at html) -->
+              <button
+                id="开始"
+                class="rounded-md bg-[#3b4252] text-text shadow-lg flex flex-grow-0 font-bold text-xl hover:-translate-y-1 transition"
+              >
+                <span
+                  class="mx-6 my-3 hover:-translate-y-1 transition"
+                  onclick="_transition()"
+                >
+                  Continue
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="index.ts"></script>
+  </body>
+</html>
